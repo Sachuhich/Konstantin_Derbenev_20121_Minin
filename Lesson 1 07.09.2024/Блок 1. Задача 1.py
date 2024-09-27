@@ -1,7 +1,5 @@
 # число десятков и единиц в 2значном числе
 
-
-
 def main():
   num=int(input())
   if len(str(num))==2:print('Кол-во десятков: ',int(str(num)[0]),'\n','Кол-во единиц: ',int(str(num)[1]),sep=(''))
