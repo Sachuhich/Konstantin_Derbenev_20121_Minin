@@ -19,4 +19,4 @@ if colums>1:
     output=output.replace('*','')
     print(output)
 elif colums==1:print(word)
-else: print('Error: Zig zag is impossible')
+else: print('Error: Zig-zag is impossible')
