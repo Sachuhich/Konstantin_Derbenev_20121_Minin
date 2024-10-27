@@ -9,7 +9,7 @@
 + [Блок 3 - Lesson 3 (21.09.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%203)  
 + [Блок 4 - Lesson 6 (12.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%204)  
 + Блок 5 - Lesson 7 (19.10.2024) *(ещё в разработке)*
-+ Блок 6 - Lesson 8 (26.10.2024) *(ещё в разработке)*
++ [Блок 6 - Lesson 8 (26.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%206)
 - [ ] Осталось пройти:
 + [Нет информации](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/page-not-found)
 ***
@@ -21,6 +21,6 @@
 Блок 3 |       3        |
 Блок 4 |       3        |
 Блок 5 |    :cry:     |
-Блок 6 |    :cry:     |
+Блок 6 |    4     |
 ***
 # Приятного пользования!
