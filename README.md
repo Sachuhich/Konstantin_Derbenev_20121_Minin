@@ -10,6 +10,7 @@
 + [Блок 4 - Lesson 6 (12.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%204)  
 + [Блок 5 - Lesson 7 (19.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%205) 
 + [Блок 6 - Lesson 8 (26.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%206)
++ Блок 7 - Lesson 12 (23.11.2024) *(ещё в разработке)*
 - [ ] Осталось пройти:
 + [Нет информации](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/page-not-found)
 ***
@@ -22,6 +23,7 @@
 Блок 4 |       3        |
 Блок 5 |       3        |
 Блок 6 |       4        |
+Блок 7 |*(ещё в разработке)* :cry:     |
 ***
 >### Так выглядит *любой файл* папки *Блока*:
 ```
@@ -40,7 +42,7 @@ Output: пеотефкинсрци
 #### Если Урок будет пройден, но Задание ещё не выполнено, то в `README.md` будет отображаться:
 + ~Блок # - Lesson # (00.00.0000)~ *(ещё в разработке)*
 ### и
-Блок 5 |*(ещё в разработке)* :cry:     |
+Блок # |*(ещё в разработке)* :cry:     |
 :---: |:--------------:
 ***
 # Спасибо за внимание! Приятного пользования!
