@@ -11,9 +11,9 @@
 + [Блок 5 - Lesson 7 (19.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%205) 
 + [Блок 6 - Lesson 8 (26.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%206)
 + [Блок 7 - Lesson 12 (23.11.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%207)
-+ Лабораторная работа 1 *(ещё в разработке)*
-+ Лабораторная работа 2 *(ещё в разработке)*
-+ Шахматы. Фигура Императрица *(ещё в разработке)*
++ Лабораторная работа 1: *(ещё в разработке)*
++ Лабораторная работа 2: *(ещё в разработке)*
++ Шахматы. Фигура Императрица: *(ещё в разработке)*
 - [ ] Осталось пройти:
 + [Нет информации](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/page-not-found)
 ***
