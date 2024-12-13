@@ -13,15 +13,16 @@ def dcd(cd):
         '-.-.-.': ';', '-...-': '=', '.-.-.': '+', '-....-': '-', '..--.-': '_',
         '.-..-.': '"', '...-..-': '$', '.--.-.': '@', '...---...': 'SOS'
     }
-    cd=cd.strip() # Убираем лишние пробелы и разбиваем на слова
-    words=cd.split('   ') # Заменяем три пробела на специальный символ для обозначения слова
-    mes=[]
+    # Разделяем код Морзе на слова
+    words = cd.strip().split('   ')  # три пробела между словами
+    dcd_message = []
 
     for word in words:
-        # Каждое слово разделяется одинарными пробелами
-        letters=word.split()
-        d_word=''.join(morse[letter] for letter in letters)
-        mes.append(d_word)
-    return ' '.join(mes) # Соединяем все слова в итоговую строку
+        letters = word.split()  # разделяем буквы по пробелам
+        dcd_word = ''.join(morse[letter] for letter in letters if letter in morse)
+        dcd_message.append(dcd_word)
 
-print(dcd('...---...'))
+    return ' '.join(dcd_message)
+
+# Пример использования
+print(dcd('... -...- ...'))  # Вывод: S=S
