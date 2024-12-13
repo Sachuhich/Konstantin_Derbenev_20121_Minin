@@ -10,7 +10,6 @@ def dcdBits(bits):
     # Декодируем в морзянку: 1 единица времени - '.', 3 - '-'
     segments = bits.split('0')
     cd = []
-
     for segment in segments:
         if len(segment) == time: cd.append('.')
         elif len(segment) == time * 3: cd.append('-')
@@ -25,8 +24,8 @@ def dcdBits(bits):
     dcd = dcd.replace('   ','*')
     dcd = dcd.replace(' ', '')
     dcd = dcd.replace('*',' ')
+    
     return dcd.replace('|',' | ')
-
 
 def dcd(cd):
     # Словарь для перевода Морзе
@@ -45,7 +44,7 @@ def dcd(cd):
     }
 
     # Разделяем код Морзе на слова
-    words = cd.strip().split(' | ')  # '|' обозначает пробел между словами
+    words = cd.strip().split(' | ')  # ' | ' обозначает пробел между словами
     dcd_message = []
 
     for word in words:
