@@ -11,6 +11,7 @@
 + [Блок 5 - Lesson 7 (19.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%205) 
 + [Блок 6 - Lesson 8 (26.10.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%206)
 + [Блок 7 - Lesson 12 (23.11.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%207)
++ [Блок 8 - Lesson 15 (14.12.2024)](https://github.com/Sachuhich/Konstantin_Derbenev_20121_Minin/tree/main/%D0%91%D0%BB%D0%BE%D0%BA%207)
 + Лабораторная работа 1: *(ещё в разработке)*
 + Лабораторная работа 2: *(ещё в разработке)*
 + Шахматы. Фигура Императрица: *(ещё в разработке)*
@@ -29,6 +30,7 @@
 Блок 7 |      2/3 + приложение      |
 Лабораторная работа 1 |*(ещё в разработке)* :cry:     |
 Лабораторная работа 2 |*(ещё в разработке)* :cry:     |
+Блок 8 |      1/2       |
 Шахматы. Фигура Императрица |*(ещё в разработке)* :cry:     |
 ***
 >### Так выглядит *любой файл* папки *Блока*:
