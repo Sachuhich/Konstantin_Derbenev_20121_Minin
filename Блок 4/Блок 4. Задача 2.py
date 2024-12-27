@@ -4,14 +4,14 @@
   Первое слово с заглавной буквы, остальные с маленькой. МЕЖДУ словами только ОДИН пробел.
 Input: “hello world”
 Output: "Hello world"
-Input: it was cool وو
+Input: "it was cool"
 Output: "Cool was it"
 Input: "good"
 Output: "Good"
 '''
 
-a=str(input()).lower()
-a=a.split()
-a.reverse()
-a[0] = a[0][0].upper()
-print(' '.join(a))
+a=str(input()).lower() # Считываем строку с клавиатуры и переводим в нижний регистр
+a=a.split() # Разбиваем строку на слова
+a.reverse() # Переворачиваем порядок слов
+a[0]=a[0][0].upper()+a[0][1:] # Делаем первое слово с заглавной буквы
+print(' '.join(a)) # Соединяем слова с одним пробелом и выводим результат
