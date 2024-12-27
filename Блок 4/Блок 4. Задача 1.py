@@ -9,7 +9,6 @@ Input: "prrker"
 Output: "rke"
 '''
 
-
 a=str(input())
 used,s,max_len,max_str='','',0,''
 for i in range(len(a)):
