@@ -9,20 +9,22 @@ Input: "prrker"
 Output: "rke"
 '''
 
-a = str(input())
-used,s,lst,end= '','',[],''
+
+a=str(input())
+used,s,max_len,max_str='','',0,''
 for i in range(len(a)):
-  if a[i] not in used: # Выделяется подстрока
-      used+=a[i]
-      s+=a[i]
-  else: # Добавление выделеной подстроки в lst, начало выделения новой подстроки
-      lst.append([s, len(s)])
-      s,used=a[i],a[i]
-if len(lst)>1: # Если подстрок несколько, ищем самую длинную
-  for i in range(len(lst)-1):
-    if lst[i][1]>lst[i+1][1]:
-      end=lst[i][0]
-    else:
-      end=lst[i+1][0]
-  print(end)
-else:print(lst[0][0])
+    if a[i] not in used: # Если символ не использован
+        used+=a[i] # Добавляем символ в использованные
+        s+=a[i] # Строим текущую подстроку
+    else: # Если символ уже использован
+        if len(s)>max_len:  # Проверяем, является ли текущая подстрока самой длинной
+            max_len=len(s)
+            max_str=s
+
+        # Обновляем строку и используемые символы
+        index = used.index(a[i])  # Ищем индекс повторяющегося символа
+        used = used[index + 1:] + a[i]  # Обрезаем использованные символы до повторяющегося
+        s = s[index + 1:] + a[i]  # Обрезаем текущую подстроку до повторяющегося
+
+if len(s) > max_len: max_str = s # Проверяем, не осталось ли самой длинной подстроки
+print(max_str)
